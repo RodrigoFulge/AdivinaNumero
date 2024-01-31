@@ -31,13 +31,11 @@ class JuegoAdivinaNumero:
         # Método principal para ejecutar el juego.
         print("Créditos del juego:")
         creditos = [
-            "Desarrollado por: Tu Nombre",
             "Versión: 1.0",
             "Fecha de lanzamiento: 30 de enero de 2024"
         ]
         #Los creditos
-        for credito in creditos:
-            print("Hecho por: Avila Delgado José Daniel, Luna Soberanes Isai, Meneses Canales Maria Fernanda, Quintanar Ruis Luis Rodrigo")
+        print(f"{creditos}\nHecho por: Avila Delgado José Daniel, Luna Soberanes Isai, Meneses Canales Maria Fernanda, Quintanar Ruis Luis Rodrigo")
 
         print(f"\nAdivina el número entre {limite_inferior} y {limite_superior}")
 
